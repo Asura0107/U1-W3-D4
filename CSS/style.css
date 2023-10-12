@@ -1,0 +1,25 @@
+#tombola {
+  max-width: 900px;
+  margin-inline: auto;
+}
+.divcell {
+  display: inline-block;
+  width: 13.2%;
+  height: 75px;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: transparent;
+}
+.divcell:hover {
+  background-color: beige;
+}
+.divcell h3 {
+  margin: 0;
+}
+body {
+  text-align: center;
+  background-color: #e9e7d429;
+}
